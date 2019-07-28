@@ -1,0 +1,25 @@
+create table user (userid int, name varchar(45), sureName varchar(45));
+create table account (accountId int, account int, userid int);
+
+insert into user values (1,'Victor','Sokolov');
+insert into user values (2,'Igor','Kazak');
+insert into user values (3,'Ivan','Petrov');
+insert into user values (4,'Egor','Duduk');
+insert into user values (5,'Oleg','Vdut');
+insert into user values (6,'Maksim','Marsh');
+insert into user values (7,'Pavel','Osipov');
+insert into user values (8,'Kirill','Minch');
+insert into user values (9,'Anton','Juk');
+insert into user values (10,'Angrei','Ivanov');
+
+insert into account values (1,500,1);
+insert into account values (2,1500,2);
+insert into account values (3,300,3);
+insert into account values (4,700,4);
+insert into account values (5,690,5);
+insert into account values (6,1230,6);
+insert into account values (7,999,7);
+insert into account values (8,435,8);
+insert into account values (9,5000,9);
+insert into account values (10,2635,10);
+

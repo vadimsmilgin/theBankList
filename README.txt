@@ -1,0 +1,2 @@
+I didn't understand clearly the task about JSP, so I've made two ways to do this task. 
+At first, JSP was realised with servlet (example jsp_with_servlet.jsp), at second JSP was realised without servlet (example jsp_without_servlet.jsp).
